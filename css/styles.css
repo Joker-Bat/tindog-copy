@@ -1,0 +1,157 @@
+/* Background Selections */
+.black-section {
+  background-color: #000;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+  color: #000;
+}
+
+.custom-dropdown.li {
+  list-style: circle;
+}
+
+
+/* Navigation Bar */
+.custom-navbar {
+  padding: 1rem 1rem;
+}
+
+/* Title page */
+.head-page {
+  padding: 7% 8%;
+}
+.title-head {
+  margin: 2rem auto;
+}
+.title-img {
+  width: 40%;
+  margin: 1rem auto 2rem;
+}
+.download-btn {
+  margin: auto 1rem auto auto;
+}
+
+
+/* Features section */
+#features {
+  padding: 8% 15%;
+  text-align: center;
+}
+
+.feature-box {
+  margin: 3% auto;
+}
+
+/* Testimonial Section */
+#testimonial {
+  text-align: center;
+  padding: 5%;
+}
+
+.testimonial-width {
+  padding: 5% 20%;
+}
+
+
+
+.testimonial-head {
+  margin: 3rem auto;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin-right: 1rem;
+  margin-bottom: 2rem;
+}
+
+/* press Section */
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 10%;
+  margin: 2rem 1rem 2rem;
+}
+
+
+/* pricing section */
+#pricing {
+  text-align: center;
+  padding: 7% 8%;
+}
+
+/* Call to action section */
+#cta {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  margin-bottom: 2rem;
+}
+
+/* Footer Section */
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.contact-icons {
+  margin: auto 1rem 2rem;
+}
+
+/* Footer Hover effects only */
+
+.foot-twitter:hover {
+  color: #00acee;
+}
+
+.foot-facebook:hover {
+  color: #0e3ac9;
+}
+
+.foot-instagram:hover {
+  color:  #ff36a1;
+}
+
+.foot-mail:hover {
+  color: #66e4fa;
+}
+
+.foot-youtube:hover {
+  color:  #c4302b;
+}
+
+
+/* For smaller screens */
+@media (max-width:990px) {
+  /* body */
+  .title-page {
+    text-align: center;
+  }
+  /* Navbar custom style */
+  .li-style {
+    list-style: initial;
+  }
+}
+
+
+/* For larger screen only */
+@media (min-width:765px) {
+  /* title page */
+  #title {
+    overflow: hidden;
+  }
+  /* title img */
+  .title-img {
+    transform: rotate(25deg);
+    position: relative;
+    top: 15%;
+  }
+}
